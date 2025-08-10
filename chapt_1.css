@@ -1,0 +1,9 @@
+#College_table{
+    font-size: 25px;
+}
+
+#College_table table, tr, th, td {
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    padding: 1.5rem;
+}
