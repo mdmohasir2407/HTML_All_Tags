@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Education Hub</title>
+    <link rel="shortcut icon" href="/Images/educationhublogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="education.css">
+</head>
+<body>
+       <header style="background-color: #0077cc;">
+        <h1> About - Education Hub</h1>
+        <nav class="navbar">
+          <a href="home.html" >Home </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="about.html">About</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="lab.html">HTML Lab</a><br><br><br>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section>
+                <h2>Our Mission</h2>
+                <p>To make learning <b>accesible</b> and <i>enjoyable</i> for everyone.</p>
+            </section>
+            <section>
+                <h2>Watch & Listen </h2>
+                <video controls   width="400" height="250" poster="/Images/Leodas.jpeg" > 
+                    <source src="/Videos/bye-bye-bye.mp4" type="video/mp4">
+                    <track src="/Videos/NSYNC-Bye-Bye-Bye.vtt" kind="subtitles" srclang="en" label="english">
+                    <track src="/Videos/NSYNC-Bye-Bye-Bye.vtt" kind="subtitles" srclang="ta" label="tamil">
+                </video>
+                <audio controls  >
+                    <source src="/Songs/ben_10_tamil_theme.mp3" type="audio/mp3">
+                </audio>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h3>Contact Form</h3>
+                <fieldset>
+                    <legend>Contact Us</legend>
+                <form action="https://httpbin.org/get" method="get">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Ur Name" required><br><br>
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email" value="heavenflauner2407@gmail.com" readonly><br><br>
+                    <label for="message">Message :</label>
+                    <textarea name="message" id="message" placeholder="Enter Ur Useful Messages" required>
+                    </textarea><br><br>
+                    <button type="submit">Submit</button>
+                    <button type="reset" >Reset</button>
+                </form>
+                </fieldset>
+                 <br><button onclick="location.href='home.html'">Back to Home</button>
+            </section>
+        </article>
+    </main>
+    
+</body>
+</html>

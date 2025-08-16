@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab - Education Hub</title>
+    <link rel="short icon" href="/Images/educationhublogo.png">
+    <link rel="stylesheet" href="education.css">
+</head>
+<body>
+    <header style="background-color: #0077cc;">
+        <h1> HTML Practice Lab</h1>
+        <nav class="navbar">
+          <a href="home.html" >Home </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="about.html">About</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="lab.html">HTML Lab</a><br><br><br>
+        </nav>
+    </header>
+   <main>
+        <article>
+            <section>
+                <div>
+                      <h2>Text & Formatting</h2>
+                      <p>This is <b>Bold, </b><i>Italic, </i><ins>Underlined, </ins><mark>Hghlighted, </mark>and <del>Deleted </del>a <small>Small Text.</small></p>
+                </div>
+                <div>
+                      <p>Math : H<sub>2</sub>O, E = mc<sup>2</sup></p>
+                </div>
+            </section>
+            <section>
+                <div>
+                      <h2>Listed & Navigation</h2>
+                        <ol>
+                            <li>First</li>
+                            <li>Second</li>
+                        </ol>
+                </div>
+                <div>
+                        <ul type="square">
+                            <li>Unordered</li>
+                            <li>Unordered</li>
+                        </ul>
+                </div>
+                <div>
+                        <menu>
+                            <li>Menu 1</li>
+                            <li>Menu 2</li>
+                            <li>Menu 3</li>
+                        </menu>
+                </div>
+            </section>
+        </article>
+        <article>
+            <section>
+                    <h2>Forms & Inputs</h2>
+                    <label for="search">Search : </label>
+                    <input type="search" name="search" id="search" placeholder="search" maxlength="20" required><br><br>
+                    <label for ="course">Course :</label>
+                    <select name="course" id="course">
+                    <option value="--Selected Course--" disabled hidden selected>--Selected course--</option>
+                    <optgroup label="Frontend">
+                        <option value="Html">HTML</option>
+                        <option value="Css">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                    </optgroup>
+                    <optgroup label="Backend">
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="C++">C++</option>
+                    </select>
+            </section>
+            <br><br>
+            <section>
+                <h2>Progress & Meter Method</h2>
+                <progress value="50" max="100"></progress>50%<br>
+                <progress value="10" max="100"></progress>10%
+            </section>
+            <section>
+                <label for="local">Local (C) :</label>
+                <meter  min="0" max="100" value="90" low="50" high="80" optimum="49" id="local" name="local"></meter>90%
+            </section>
+        </article>
+        <article>
+            <section>
+                <picture>
+                    <source media="(min-width:821px)" srcset="/Images/Leodas.jpeg" alt="Pasumai" type="image/jpeg" loading="lazy" width="800" >
+                    <source media="(min-width:522px)" srcset="/Images/vj_siddhu_vlogs_team.jpeg" alt="vj siddhu vlogs" type="image/jpeg" loading="lazy" width="500">
+                  <img src="/Images/dragon.jpeg" alt="Dragon" loading="lazy" width="350"><br>
+                    <figcaption>Leo Das Is Back</figcaption>
+                </picture>
+            </section>
+            <section>
+                <object data="/Pdf/Spider-Man.pdf" type="application/pdf" width="400" height="200">
+                    <p>PDF not supported</p>
+                </object>
+             
+            </section>
+            <section>
+                <h2>Iframe Tag</h2>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/tLcdCRaPLZ8?si=qf63MBQnPfkz_957" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2>Marque Tag : </h2>
+                <marquee>Welcome To The Educational Hub 👌</marquee>
+            </section>
+        </article>        
+   </main>
+   <footer>
+    <fieldset align="center" style="background-color: #f2f2f2;">
+        <p>Html Lab - All Tag Practice </p>
+        </fieldset>
+   </footer>
+    
+</body>
+</html>
